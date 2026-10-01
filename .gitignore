@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+.playwright-mcp/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# OS and logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Local editor config (machine-specific MCP path)
+.cursor/
