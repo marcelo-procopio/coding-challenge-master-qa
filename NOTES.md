@@ -1,6 +1,6 @@
 # Notes
 
-All of this was done by AI in Cursor Pro. Playwright MCP drove Sauce Demo in the browser to confirm each failure. A video will explain the concepts.
+All of this was done by AI in Cursor Pro. Playwright MCP drove Sauce Demo in the browser to confirm each failure. [Watch the video](https://www.loom.com/share/be05e489eb4f49e483d4d2204de9da28). [Public repo](https://github.com/marcelo-procopio/coding-challenge-master-qa).
 
 Market practice used here: page objects named for the user action, `data-test` before role before text, auto-waiting locators, no fixed sleeps, one reason to fail per test, and money checked in cents so `9.99 + 0.80` cannot fail a correct total.
 
